@@ -1,0 +1,19 @@
+{
+	"pages": [
+		{
+			"path": "pages/mobile/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#000",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+
+		}
+	}
+}
