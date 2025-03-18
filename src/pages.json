@@ -8,12 +8,10 @@
 		}
 	],
 	"globalStyle": {
-		"navigationBarTextStyle": "white",
-		"navigationBarTitleText": "",
-		"navigationBarBackgroundColor": "#000",
-		"backgroundColor": "#F8F8F8",
-		"usingComponents": {
-
-		}
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTextStyle": "black",
+		"enablePullDownRefresh": false,
+		"navigationStyle": "custom"
 	}
 }

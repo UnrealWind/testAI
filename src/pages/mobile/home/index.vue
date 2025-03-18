@@ -1,6 +1,8 @@
 <template>
   <view class="content">
-
+    <div class="model-front"></div>
+    <div class="ai-btn"> <img mode="widthFix" src="@/static/img/button.png"/> </div>
+    <img mode="widthFix" src="@/static/img/bg.png" />
   </view>
 </template>
 
@@ -23,5 +25,33 @@ onMounted(() => {
 
 
 <style lang="scss" scoped>
-  @import "index.scss";
+  .content {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    .model-front {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      overflow-y: scroll;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(5px);
+    }
+    >image {
+      width: 100%;
+      height: 100%;
+    }
+    .ai-btn {
+      width: 120px;
+      height: 120px;
+      position: absolute;
+      bottom: 0px;
+      right: 10px;
+      image {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
 </style>
